@@ -1,3 +1,4 @@
+//Switch case
 const display = document.getElementById("m2");
 let figure, area = 0;
 figure = prompt("Enter the figure name : ");
