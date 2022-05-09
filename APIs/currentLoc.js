@@ -10,10 +10,10 @@ async function position(data) {
     let response = await fetch(`${url}`);
     let info = await response.json();
     // json() The json() method of the Response interface takes a Response stream and reads it to completion. It returns a promise which resolves with the result of parsing the body text as JSON
-    display[0].innerHTML = info.list[0].deg;
+    display[0].innerHTML = info.list[0].temp.day;
     var iconcode = info.list[0].weather[0].icon;
     var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
     logo.src = iconurl;
     display[1].innerHTML = info.list[0].temp.day;
-    // console.log(info);
+    console.log(info);
 }
