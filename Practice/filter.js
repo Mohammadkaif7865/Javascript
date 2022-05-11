@@ -10,6 +10,16 @@ var ratingData = [
     ]
     //Deleting elements with rating < 3
 let newData = ratingData.filter((element) =>
-    element.rating > 3)
-console.log(newData);
-//It doesn't change the original array
+        element.rating > 3)
+    // console.log(newData);
+    // let x = ratingData.keys();
+    // for (y of x) {
+    //     console.log(x[y]);
+    // }
+    // for (x of ratingData) {
+    //     let y = Object.entries(x);
+    //     for (z of y) {
+    //         console.log(z);
+    //     }
+    // }
+    //It doesn't change the original array
