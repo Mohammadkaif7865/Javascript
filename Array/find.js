@@ -1,11 +1,8 @@
-let ages = [15, 34, 12, 34, 45, 22, 23, 21, 25, 26, 27, 28, 29, 17, 16, 18, 19, 75, 20, 13, 14, 15];
-
-function isFifty(age, index, arr) {
-    if (age >= 80)
-        return age;
-    else
-        return false;
-}
-let x = ages.find(isFifty);
-console.log(x);
+let ages = [12, 13, 14, 56, 32, 45, 34, 35, 35, 43, 53, 46, 5, 65, 63, 4, 534];
+let x = ages.find(function(age, index, arr) {
+    // return index == 2;
+    return arr[index + 2] < age;
+});
+//Any How the find function could not return index it can use index and array but cannot return the index or complete array
 // array.find(function(currentValue, index, arr),thisValue)
+console.log(x);
