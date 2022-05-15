@@ -9,4 +9,4 @@
 let str = "I am the trade boy";
 console.log(str.charAt(5));
 //Output
-// t
+// ts
