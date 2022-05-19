@@ -12,4 +12,4 @@ console.log(str1.localeCompare(str2));
 //If the strings are sorted then if return -1 
 //If the strings are not sorted according to the dictionary then it returns 1;
 //If the strings are equal then it returns 0
-//It also compare the locale language of the region
+//It also compare the locale language of the regions
