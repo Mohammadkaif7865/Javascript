@@ -24,8 +24,8 @@
 // A string	A string containing the extracted part.
 // If length is 0 or negative, an empty string is returned.
 let str = "My name is Santa and I love spreading love !";
-// let subString = str.substring(3, str.length - 1);
-// name is Santa and I love spreading love
-let subString = str.substring(-5, 8);
-// My name 
+let subString = str.substr(-15, str.length - 1);
+// preading love !
+// let subString = str.substr(-5, 8);
+//ove !
 console.log(subString);
